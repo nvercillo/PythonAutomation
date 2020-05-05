@@ -240,7 +240,7 @@ try:
                 # do some processing on the dates
                 query += str(lead.get_check_in())
                 query += "',"
-                query += "'"
+                query += "'" 
                 query += str(lead.get_check_out())
                 query += "',"
                 query += "'"
