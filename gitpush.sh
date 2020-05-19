@@ -1,3 +1,4 @@
+#!/bin/sh
 perl randnum.pl
 typeset -i randNum=$(cat rand.txt)
 echo $randNum
