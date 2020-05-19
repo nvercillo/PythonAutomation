@@ -1,7 +1,7 @@
-FLOOR=10;
-CEILING=21;
-perl -e 'print int(rand(15) +12)'
-for i in {1..5}
+perl randnum.pl
+typeset -i randNum=$(cat rand.txt)
+echo $randNum
+for i in  $(seq 1 $randNum);
 do
 STR=$(date)
 echo '.................
