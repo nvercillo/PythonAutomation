@@ -14,4 +14,4 @@ cat timesOfGitCommits.txt >> temp_file.txt
 git add .
 git commit -m "$STR"
 git push
-done
+done 
