@@ -1,8 +1,13 @@
-echo '.................
+FLOOR=10;
+CEILING=100;
+RANGE=$(($CEILING-$FLOOR+1));
 
-Commit Time EST: 2323232/05/2020, 00:58:29
+string1 = "................."
 
-..................' > timesOfGitCommits.txt
+string2 = "Commit Time EST: "
+string3 = date 
+string4 = ".................." 
+$string1$string2$string3$string4> timesOfGitCommits.txt
 cat timesOfGitCommits.txt >> temp_file.txt
 git add .
 git commit -m "Automated commit"
