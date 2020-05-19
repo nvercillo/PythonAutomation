@@ -1,6 +1,7 @@
 #!/bin/sh
 perl randnum.pl
 typeset -i randNum=$(cat rand.txt)
+str1=" of commits will be merged to master"
 echo $randNum
 for i in  $(seq 1 $randNum);
 do
