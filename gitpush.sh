@@ -3,7 +3,7 @@ CEILING=21;
 RANGE=$(($CEILING-$FLOOR+1));
 
 
-for i in {1..$RANGE}
+for i in {1..5}
 do
 STR=$(date)
 echo '.................
