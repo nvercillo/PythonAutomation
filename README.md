@@ -1,4 +1,4 @@
-# open_cv
+# Github Automation
 This repository is a tool that allows the automation of a random number of git pushes, experimenting with Perl, batch and shell scripts
 
 
