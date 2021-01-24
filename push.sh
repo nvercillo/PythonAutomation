@@ -14,7 +14,7 @@ if [[ -n "$name" ]]; then
                 mkdir logs
             fi
             echo "This is an automated message" > $log_file
-            git add $log_file
+            git add -A
             git commit -m "Automated Commit at $d" 
             git push
         done
