@@ -8,15 +8,15 @@ if [[ -n "$name" ]]; then
 
     for i in $(seq "$1")
         do
-            if [$1 -gt 0]
+            if [ $i -eq "6" ]
             then 
-                echo "SDfsdfsdf"
                 rm -rf logs
+                mkdir logs
             fi
-            # echo "This is an automated message" > $log_file
-            # git add $log_file
-            # git commit -m "Automated Commit at $d" 
-            # git push
+            echo "This is an automated message" > $log_file
+            git add $log_file
+            git commit -m "Automated Commit at $d" 
+            git push
         done
 else
     echo "argument error"
